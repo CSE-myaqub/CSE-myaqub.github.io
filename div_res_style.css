@@ -1,9 +1,14 @@
 body {
   background: white;
   font-family: "Times New Roman", Times, serif;
-  margin: 40px;
+  margin: 28px;
   color: #000;
-  max-width: 700px;
+  display: flex;
+  justify-content: center;
+}
+
+.page {
+  width: 600px;
 }
 
 .header {
@@ -12,69 +17,51 @@ body {
 }
 
 .header h1 {
-  margin: 0 0 6px 0;
-  font-size: 30px;
+  margin: 0 0 4px 0;
+  font-size: 36px;
   font-weight: 700;
-  letter-spacing: -0.5px;
+  letter-spacing: -0.6px;
 }
 
 .contact {
-  font-size: 14px;
-  margin-bottom: 10px;
+  font-size: 13px;
+  margin-bottom: 8px;
+  color: #111;
 }
 
 hr {
   border: none;
   border-top: 1px solid #000;
-  margin: 8px 0 14px 0;
+  margin: 6px 0 12px 0;
 }
 
+/* two-column layout */
 .section {
   display: flex;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
   align-items: flex-start;
 }
 
+/* left column for labels */
 .section-title {
-  width: 24%;
+  width: 20%;
   font-weight: 700;
-  font-size: 13px;
-  color: #000;
+  font-size: 12px;
   text-transform: uppercase;
-  padding-right: 12px;
+  letter-spacing: 0.6px;
+  padding-right: 14px;
+  color: #000;
 }
 
+/* right column for lines */
 .section-content {
-  width: 76%;
-  font-size: 14px;
-  line-height: 1.35;
+  width: 80%;
+  font-size: 13.5px;
+  line-height: 1.18;
+  color: #000;
 }
 
-.section-content strong,
-.section-content h3 {
+/* make strong headings on content slightly larger */
+.section-content strong {
   display: block;
-  font-weight: 700;
-  margin-bottom: 6px;
-}
-
-.section-content ul {
-  margin: 6px 0 10px 18px;
-  padding: 0;
-  list-style-type: disc;
-}
-
-.section-content li {
-  margin-bottom: 6px;
-  font-size: 14px;
-}
-
-.section-content br { 
-  line-height: 1.2; 
-}
-
-footer {
-  margin-top: 18px;
-  font-size: 13px;
-  text-align: center;
-  color: #333;
-}
+  font-weight:
