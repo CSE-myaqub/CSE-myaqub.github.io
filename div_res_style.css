@@ -1,0 +1,50 @@
+body {
+  background: white;
+  font-family: "Times New Roman", Times, serif;
+  margin: 40px;
+}
+
+/* Center only the header */
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact {
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid black;
+  margin: 15px auto;
+  width: 80%;
+}
+
+/* Everything below header is left aligned */
+.section {
+  display: flex;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.section-title {
+  width: 25%;
+  font-weight: bold;
+}
+
+.section-content {
+  width: 75%;
+}
+
+.section-content ul {
+  margin-top: 5px;
+  padding-left: 20px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+}
