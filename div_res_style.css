@@ -2,45 +2,79 @@ body {
   background: white;
   font-family: "Times New Roman", Times, serif;
   margin: 40px;
+  color: #000;
+  max-width: 700px;
 }
 
 .header {
-  text-align: center;
-  margin-bottom: 20px;
+  text-align: left;
+  margin-bottom: 6px;
+}
+
+.header h1 {
+  margin: 0 0 6px 0;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
 }
 
 .contact {
   font-size: 14px;
-  margin-top: 5px;
+  margin-bottom: 10px;
 }
 
 hr {
   border: none;
-  border-top: 1px solid black;
-  margin: 15px 0;
+  border-top: 1px solid #000;
+  margin: 8px 0 14px 0;
 }
 
 .section {
   display: flex;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  align-items: flex-start;
 }
 
 .section-title {
-  width: 25%;
-  font-weight: bold;
+  width: 24%;
+  font-weight: 700;
+  font-size: 13px;
+  color: #000;
+  text-transform: uppercase;
+  padding-right: 12px;
 }
 
 .section-content {
-  width: 75%;
+  width: 76%;
+  font-size: 14px;
+  line-height: 1.35;
+}
+
+.section-content strong,
+.section-content h3 {
+  display: block;
+  font-weight: 700;
+  margin-bottom: 6px;
 }
 
 .section-content ul {
-  padding-left: 20px;
-  margin-top: 5px;
+  margin: 6px 0 10px 18px;
+  padding: 0;
+  list-style-type: disc;
+}
+
+.section-content li {
+  margin-bottom: 6px;
+  font-size: 14px;
+}
+
+.section-content br { 
+  line-height: 1.2; 
 }
 
 footer {
+  margin-top: 18px;
+  font-size: 13px;
   text-align: center;
-  margin-top: 20px;
-  font-size: 14px;
+  color: #333;
 }
