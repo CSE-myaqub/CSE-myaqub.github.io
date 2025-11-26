@@ -12,8 +12,8 @@ body {
 }
 
 .header {
-  text-align: left;
-  margin-bottom: 6px;
+  text-align: center;
+  margin-bottom: 10px;
 }
 
 .header h1 {
@@ -24,25 +24,24 @@ body {
 }
 
 .contact {
-  font-size: 13px;
-  margin-bottom: 8px;
-  color: #111;
+  font-size: 14px;
+  margin-bottom: 10px;
 }
 
 hr {
   border: none;
   border-top: 1px solid #000;
-  margin: 6px 0 12px 0;
+  margin: 8px auto 14px auto;
+  width: 80%;
 }
 
-/* two-column layout */
 .section {
   display: flex;
-  margin-bottom: 8px;
+  margin-bottom: 10px;
   align-items: flex-start;
+  text-align: left;
 }
 
-/* left column for labels */
 .section-title {
   width: 20%;
   font-weight: 700;
@@ -50,18 +49,40 @@ hr {
   text-transform: uppercase;
   letter-spacing: 0.6px;
   padding-right: 14px;
-  color: #000;
 }
 
-/* right column for lines */
 .section-content {
   width: 80%;
-  font-size: 13.5px;
+  font-size: 14px;
   line-height: 1.18;
-  color: #000;
 }
 
-/* make strong headings on content slightly larger */
 .section-content strong {
   display: block;
-  font-weight:
+  font-weight: 700;
+  margin-bottom: 4px;
+  font-size: 14px;
+}
+
+.section-content ul {
+  margin: 6px 0 8px 18px;
+  padding: 0;
+  list-style: disc;
+}
+
+.section-content li {
+  margin-bottom: 6px;
+  font-size: 13.5px;
+  line-height: 1.18;
+}
+
+.section-content br {
+  line-height: 1.05;
+}
+
+footer {
+  margin-top: 14px;
+  font-size: 12.5px;
+  text-align: center;
+  color: #333;
+}
