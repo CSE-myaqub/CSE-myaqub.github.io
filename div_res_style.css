@@ -12,6 +12,11 @@ body {
     color: #000;
     font-size: 14px;
 }
+<div class="address">Address: Columbia, SC, 29208</div>
+<div class="header">
+  <h1>Muhammad Yaqub</h1>
+  <div class="contact">mikhlas711@gmail.com</div>
+</div>
 
 .header {
     text-align: center;
