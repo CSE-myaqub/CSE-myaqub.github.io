@@ -1,8 +1,9 @@
 body {
+    text-align: left;
     font-family: "Times New Roman", Times, serif;
     margin: 40px;
     color: #000000;
-    background-color: #fff;
+    background-color: #ffffff;
     font-size: 20px;
 }
 
@@ -30,16 +31,19 @@ hr {
 .section {
     display: flex;
     margin-bottom: 20px;
+    text-align: left;
 }
 
 .section-title {
     width: 25%;
     font-weight: bold;
     color: #000000;
+    text-align: left;
 }
 
 .section-content {
     width: 75%;
+    text-align: left;
 }
 
 ul {
