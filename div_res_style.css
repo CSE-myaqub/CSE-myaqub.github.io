@@ -1,115 +1,49 @@
 body {
     font-family: "Times New Roman", Times, serif;
     margin: 40px;
-    color: #000;
+    color: #000000;
     background-color: #fff;
-    font-size: 16px;
+    font-size: 20px;
+       
 }
-
-.address {
-    width: 30%;
-    margin: 0 0 12px 0;
-    color: #000;
-    font-size: 14px;
-}
-<div class="address">Address: Columbia, SC, 29208</div>
-<div class="header">
-  <h1>Muhammad Yaqub</h1>
-  <div class="contact">mikhlas711@gmail.com</div>
-</div>
 
 .header {
     text-align: center;
-    margin-bottom: 18px;
+    margin-bottom: 20px;
 }
 
 .header h1 {
     margin: 0;
-    font-size: 36px;
-    font-weight: 700;
-    color: #000;
+    color: #000000;
 }
 
 .contact {
-    margin-top: 4px;
+    margin-top: 5px;
     font-size: 14px;
-    color: #000;
 }
 
 hr {
     border: 0;
-    border-top: 2px solid #000;
-    margin: 12px 0 18px 0;
+    border-top: 2px solid #000000;
+    margin: 10px 0 20px 0;
 }
 
 .section {
     display: flex;
-    margin-bottom: 18px;
+    margin-bottom: 20px;
 }
 
 .section-title {
-    width: 28%;
-    font-weight: 700;
-    color: #000;
-    padding-right: 12px;
-    font-size: 16px;
+    width: 25%;
+    font-weight: bold;
+    color: #000000;
 }
 
 .section-content {
-    width: 72%;
-    color: #000;
-    font-size: 15px;
-}
-
-.section-content strong {
-    font-weight: 700;
+    width: 75%;
 }
 
 ul {
-    margin: 6px 0 8px 20px;
-    padding-left: 0;
-}
-
-.section-content ul li {
-    margin: 6px 0;
-    font-size: 14.5px;
-}
-
-.projects {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.projects h2 {
-    width: 100%;
-}
-
-.project {
-    width: 30%;
-    margin: 10px;
-    padding: 20px 10px;
-    background: #fff;
-    border-radius: 25%;
-}
-
-.project h3 {
-    margin-left: 50px;
-}
-
-.project img {
-    width: 400px;
-    height: 400px;
-    margin: 10px auto;
-    border: 2px solid #000;
-    display: block;
-}
-
-a {
-    text-decoration: none;
-    color: #000;
-}
-
-.project p {
-    margin: 15px;
-    text-align: center;
+    margin-top: 5px;
+    padding-left: 20px;
 }
