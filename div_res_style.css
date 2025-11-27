@@ -1,8 +1,8 @@
 body {
     font-family: "Times New Roman", Times, serif;
     margin: 40px;
-    color: #E0D428;
-    background-color: #6145A1;
+    color: #000000;
+    background-color: #ffff;
     font-size: 20px;
 }
 
@@ -13,7 +13,7 @@ body {
 
 .header h1 {
     margin: 0;
-    color: #E0D428;
+    color: #000000;
 }
 
 .contact {
@@ -23,7 +23,7 @@ body {
 
 hr {
     border: 0;
-    border-top: 2px solid #E0D428;
+    border-top: 2px solid #000000;
     margin: 10px 0 20px 0;
 }
 
@@ -35,7 +35,7 @@ hr {
 .section-title {
     width: 25%;
     font-weight: bold;
-    color: #E0D428;
+    color: #000000;
 }
 
 .section-content {
