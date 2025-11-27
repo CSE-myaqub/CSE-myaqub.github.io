@@ -1,81 +1,110 @@
 body {
     font-family: "Times New Roman", Times, serif;
     margin: 40px;
-    color: #000000;
-    background-color: #ffffff;
-    font-size: 20px;
-    text-align: left;
-}
-
-.page {
-    max-width: 900px;
-    margin: 0 auto;
+    color: #000;
+    background-color: #fff;
+    font-size: 16px;
 }
 
 .address {
-    width: 220px;
-    float: left;
-    margin-top: 6px;
+    width: 30%;
+    margin: 0 0 12px 0;
+    color: #000;
     font-size: 14px;
 }
 
 .header {
     text-align: center;
-    margin-bottom: 8px;
-    clear: both;
+    margin-bottom: 18px;
 }
 
 .header h1 {
     margin: 0;
-    color: #000000;
-    font-size: 40px;
-    font-weight: bold;
+    font-size: 36px;
+    font-weight: 700;
+    color: #000;
 }
 
 .contact {
-    margin-top: 6px;
+    margin-top: 4px;
     font-size: 14px;
+    color: #000;
 }
 
 hr {
     border: 0;
-    border-top: 2px solid #000000;
+    border-top: 2px solid #000;
     margin: 12px 0 18px 0;
-    width: 100%;
 }
 
-/* two-column layout */
 .section {
     display: flex;
-    align-items: flex-start;
-    margin-bottom: 14px;
+    margin-bottom: 18px;
 }
 
-/* left column: small fixed label column */
 .section-title {
-    width: 18%;
-    font-weight: bold;
-    color: #000000;
-    font-size: 14px;
-    padding-right: 18px;
-    box-sizing: border-box;
-}
-
-/* right column: main content */
-.section-content {
-    width: 82%;
-    font-size: 14px;
-    line-height: 1.4;
-}
-
-.section-content strong {
-    display: block;
+    width: 28%;
     font-weight: 700;
-    margin-bottom: 6px;
+    color: #000;
+    padding-right: 12px;
+    font-size: 16px;
+}
+
+.section-content {
+    width: 72%;
+    color: #000;
     font-size: 15px;
 }
 
+.section-content strong {
+    font-weight: 700;
+}
+
 ul {
-    margin-top: 6px;
-    padding-left: 20px;
+    margin: 6px 0 8px 20px;
+    padding-left: 0;
+}
+
+.section-content ul li {
+    margin: 6px 0;
+    font-size: 14.5px;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.projects h2 {
+    width: 100%;
+}
+
+.project {
+    width: 30%;
+    margin: 10px;
+    padding: 20px 10px;
+    background: #fff;
+    border-radius: 25%;
+}
+
+.project h3 {
+    margin-left: 50px;
+}
+
+.project img {
+    width: 400px;
+    height: 400px;
+    margin: 10px auto;
+    border: 2px solid #000;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.project p {
+    margin: 15px;
+    text-align: center;
 }
